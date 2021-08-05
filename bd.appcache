@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# [V.01/05-08-2021]
+CACHE:
+index.html
+materialize.min.css
+materialize.min.js
+PressStart2P.ttf
+PressStart2P.woff
+js/juego.js
+js/howler.core.js
+music/8_bit_rainy_city_lofi.mp3
+sound/1.mp3
+sound/coin.wav
+sound/Win.wav
+img/tilemap5.png
+img/tilemap6.png
+img/tilemap7.png
