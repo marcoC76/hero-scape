@@ -3,7 +3,7 @@
     "background_color": "#9b9b9b",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/hero-scape/index.html?utm_source=homescreen",
+    "start_url": "/hero-scape/?utm_source=homescreen",
     "name": "Heroe scape",
     "short_name": "Heroe scape",
     "description": "Juego de escape",
