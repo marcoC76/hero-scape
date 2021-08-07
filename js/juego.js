@@ -635,7 +635,14 @@ function inicializa() {
 
 
   //cargamos nivel maximo
-  var recuperado = recuperar();
+  var recuperado; 
+  if(recuperar() == null){
+  
+  recuperado = 0;
+  
+  }else {
+  recuperado = recuperar();
+  } 
   document.getElementById('maximo').innerHTML = recuperado;
 
 
