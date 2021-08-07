@@ -636,7 +636,7 @@ function inicializa() {
 
   //cargamos nivel maximo
   var recuperado; 
-  if(recuperar() == undefined ){
+  if(recuperar() == 'undefined' ){
   
   recuperado = 0;
   
