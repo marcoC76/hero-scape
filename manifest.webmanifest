@@ -3,7 +3,7 @@
     "background_color": "#000000",
     "display": "standalone",
     "orientation": "portrait",
-    "scope": "/",
+    "scope": "https://marcoc76.github.io/hero-scape/",
     "start_url": "/hero-scape/?utm_source=homescreen",
     "name": "Heroe scape",
     "short_name": "Heroe scape",
