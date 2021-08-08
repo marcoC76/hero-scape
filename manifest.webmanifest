@@ -1,7 +1,8 @@
 {
-    "theme_color": "#010101",
-    "background_color": "#9b9b9b",
+    "theme_color": "#000000",
+    "background_color": "#000000",
     "display": "standalone",
+    "orientation": "portrait",
     "scope": "/",
     "start_url": "/hero-scape/index.html",
     "name": "Heroe scape",
