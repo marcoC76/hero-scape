@@ -608,7 +608,7 @@ function cambiaStilo(tile) {
 
 
 function inicializa() {
-  
+
   canvas = document.getElementById('canvas');
   ctx = canvas.getContext('2d');
   document.getElementById('maxProgress').setAttribute('value', localStorage.getItem('max'));
@@ -635,14 +635,14 @@ function inicializa() {
 
 
   //cargamos nivel maximo
-  var recuperado; 
-  if(recuperar() == 'undefined' ){
-  
-  recuperado = 0;
-  
-  }else {
-  recuperado = recuperar();
-  } 
+  var recuperado;
+  if (localStorage.getItem("max") == 'undefined') {
+
+    recuperado = 0;
+
+  } else {
+    recuperado = recuperar();
+  }
   document.getElementById('maximo').innerHTML = recuperado;
 
 

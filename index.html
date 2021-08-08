@@ -27,7 +27,15 @@
     }
 
     body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
       font-family: fuente !important;
+      background-image: linear-gradient(216deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 25%, rgba(42, 42, 42, 0.05) 25%, rgba(42, 42, 42, 0.05) 38%, rgba(223, 223, 223, 0.05) 38%, rgba(223, 223, 223, 0.05) 75%, rgba(36, 36, 36, 0.05) 75%, rgba(36, 36, 36, 0.05) 100%), linear-gradient(44deg, rgba(128, 128, 128, 0.05) 0%, rgba(128, 128, 128, 0.05) 34%, rgba(212, 212, 212, 0.05) 34%, rgba(212, 212, 212, 0.05) 57%, rgba(25, 25, 25, 0.05) 57%, rgba(25, 25, 25, 0.05) 89%, rgba(135, 135, 135, 0.05) 89%, rgba(135, 135, 135, 0.05) 100%), linear-gradient(241deg, rgba(55, 55, 55, 0.05) 0%, rgba(55, 55, 55, 0.05) 14%, rgba(209, 209, 209, 0.05) 14%, rgba(209, 209, 209, 0.05) 60%, rgba(245, 245, 245, 0.05) 60%, rgba(245, 245, 245, 0.05) 69%, rgba(164, 164, 164, 0.05) 69%, rgba(164, 164, 164, 0.05) 100%), linear-gradient(249deg, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 32%, rgba(148, 148, 148, 0.05) 32%, rgba(148, 148, 148, 0.05) 35%, rgba(202, 202, 202, 0.05) 35%, rgba(202, 202, 202, 0.05) 51%, rgba(181, 181, 181, 0.05) 51%, rgba(181, 181, 181, 0.05) 100%), linear-gradient(92deg, hsl(214, 0%, 11%), hsl(214, 0%, 11%));
+      zoom: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
       height: 100vh;
     }
 
@@ -39,12 +47,16 @@
 
       margin: -2.3rem 0 1rem;
     }
+
+    .nes-btn.is-primary {
+      
+      width: 30%;
+    }
   </style>
 
 </head>
 
-<body onload='inicializa();'
-  style="background-image: linear-gradient(216deg, rgba(77, 77, 77,0.05) 0%, rgba(77, 77, 77,0.05) 25%,rgba(42, 42, 42,0.05) 25%, rgba(42, 42, 42,0.05) 38%,rgba(223, 223, 223,0.05) 38%, rgba(223, 223, 223,0.05) 75%,rgba(36, 36, 36,0.05) 75%, rgba(36, 36, 36,0.05) 100%),linear-gradient(44deg, rgba(128, 128, 128,0.05) 0%, rgba(128, 128, 128,0.05) 34%,rgba(212, 212, 212,0.05) 34%, rgba(212, 212, 212,0.05) 57%,rgba(25, 25, 25,0.05) 57%, rgba(25, 25, 25,0.05) 89%,rgba(135, 135, 135,0.05) 89%, rgba(135, 135, 135,0.05) 100%),linear-gradient(241deg, rgba(55, 55, 55,0.05) 0%, rgba(55, 55, 55,0.05) 14%,rgba(209, 209, 209,0.05) 14%, rgba(209, 209, 209,0.05) 60%,rgba(245, 245, 245,0.05) 60%, rgba(245, 245, 245,0.05) 69%,rgba(164, 164, 164,0.05) 69%, rgba(164, 164, 164,0.05) 100%),linear-gradient(249deg, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 32%,rgba(148, 148, 148,0.05) 32%, rgba(148, 148, 148,0.05) 35%,rgba(202, 202, 202,0.05) 35%, rgba(202, 202, 202,0.05) 51%,rgba(181, 181, 181,0.05) 51%, rgba(181, 181, 181,0.05) 100%),linear-gradient(92deg, hsl(214,0%,11%),hsl(214,0%,11%)); zoom: 100%; ">
+<body onload='inicializa();'>
 
   <!--   <nav class="">
     <div class="nav-wrapper blue-grey">
@@ -128,7 +140,7 @@
 
             <!-- <h5 class="card-title center">Nivel</h5> -->
             <h5 class="center" id="nivel"></h5>
-            <progress id="nivelProgress" class="nes-progress is-pattern" value="0" max="10"></progress>
+            <progress id="nivelProgress" class="nes-progress" value="0" max="10"></progress>
           </div>
           <!-- <div class="card-action">
             <a href="#">Compartir</a>
@@ -157,7 +169,27 @@
     <!-- <a class="btn-floating btn-large waves-effect waves-light right green darken-3 modal-trigger" href="#modal1"><i
         class="material-icons">help_outline</i></a> -->
 
+    <div id="botones" style="display: none;">
+      <center>
+        <div class="row">
 
+          <button type="button" class="nes-btn is-primary " onclick="protagonista.arriba();"><i
+              class="material-icons">arrow_upward</i></button>
+        </div>
+        <div class="row">
+          <button type="button" class="nes-btn is-primary" onclick="protagonista.izquierda();"><i
+              class="material-icons">arrow_back</i></button>
+          <button type="button" class="nes-btn is-disabled" onclick="musica.volume=0;"><i
+              class="material-icons">volume_off</i></button>
+          <button type="button" class="nes-btn is-primary" onclick="protagonista.derecha();"><i
+              class="material-icons">arrow_forward</i></button>
+        </div>
+        <div class="row">
+          <button type="button" class="nes-btn is-primary" onclick="protagonista.abajo();"><i
+              class="material-icons">arrow_downward</i></button>
+        </div>
+      </center>
+    </div>
 
   </div> <!-- finaliza container -->
 
@@ -192,7 +224,7 @@
     M.AutoInit();
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.modal');
-      var instances = M.Modal.init(elems, options);
+      var instances = M.Modal.init(elems);
 
     });
 
@@ -204,26 +236,7 @@
     });
 
 
-    /* var isMobile = {
-      Android: function () {
-        return navigator.userAgent.match(/Android/i);
-      },
-      BlackBerry: function () {
-        return navigator.userAgent.match(/BlackBerry/i);
-      },
-      iOS: function () {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-      },
-      Opera: function () {
-        return navigator.userAgent.match(/Opera Mini/i);
-      },
-      Windows: function () {
-        return navigator.userAgent.match(/IEMobile/i);
-      },
-      any: function () {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-      }
-    }; */
+
 
     navegador = navigator.userAgent; //busco el "userAgent" del usuario.
     //lista de palabras del "userAgent" en los móviles
@@ -238,6 +251,9 @@
     }
     if (detector == 1) { //si es un móvil redirecciono la página.
       document.getElementById('canvas').style.zoom = "40%";
+      document.getElementById('maxProgress').style.zoom = "60%";
+      document.getElementById('nivelProgress').style.zoom = "60%";
+      document.getElementById('botones').style.display = '';
     }
   </script>
 
