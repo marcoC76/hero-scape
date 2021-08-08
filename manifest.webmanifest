@@ -4,7 +4,7 @@
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
-    "start_url": "/hero-scape/index.html",
+    "start_url": "/hero-scape/?utm_source=homescreen",
     "name": "Heroe scape",
     "short_name": "Heroe scape",
     "description": "Juego de escape",
