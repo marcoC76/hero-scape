@@ -81,7 +81,7 @@ var escenario1 = [
 //Ariel Omar Méndez Valverde
 var escenario2 = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 2, 0, 2, 0],
   [0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0],
   [0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 2, 0],
   [0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 2, 0],
@@ -93,7 +93,7 @@ var escenario2 = [
 ];
 var escenario3 = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 2, 0, 0, 0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 0],
+  [0, 0, 0, 0, 0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 0],
   [0, 2, 2, 2, 2, 2, 2, 0, 2, 0, 2, 0, 2, 0, 0],
   [0, 2, 0, 0, 0, 0, 2, 2, 2, 0, 2, 0, 2, 0, 0],
   [0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 3, 0],
@@ -107,7 +107,7 @@ var escenario3 = [
 //Niveles de Gustavo Hernández
 var escenario4 = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 2, 0, 2, 2, 2, 0, 1, 2, 2, 2, 2, 2, 2, 0],
+  [0, 0, 0, 2, 2, 2, 0, 1, 2, 2, 2, 2, 2, 2, 0],
   [0, 2, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 0],
   [0, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2, 0],
   [0, 2, 0, 2, 0, 0, 0, 2, 0, 2, 2, 2, 0, 2, 0],
@@ -120,7 +120,7 @@ var escenario4 = [
 
 var escenario5 = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0],
+  [0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0],
   [0, 2, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 2, 0],
   [0, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0, 2, 0, 2, 0],
   [0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 2, 2, 0, 2, 0],
@@ -136,7 +136,7 @@ var escenario5 = [
 
 var escenario6 = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 2, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 2, 3, 0],
+  [0, 0, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0, 2, 3, 0],
   [0, 0, 0, 2, 0, 0, 0, 2, 2, 2, 2, 2, 2, 0, 0],
   [0, 0, 0, 2, 0, 0, 0, 2, 0, 2, 0, 0, 2, 0, 0],
   [0, 0, 0, 2, 0, 0, 0, 2, 0, 2, 2, 2, 2, 0, 0],
@@ -164,7 +164,7 @@ var escenario7 = [
 //Niveles de  Cinthia Guadalupe Soto Rodriguez. 
 var escenario8 = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 2, 2, 0, 0, 0, 0, 0, 3, 2, 2, 2, 2, 0, 0],
+  [0, 0, 2, 0, 0, 0, 0, 0, 3, 2, 2, 2, 2, 0, 0],
   [0, 0, 2, 0, 2, 2, 2, 0, 0, 0, 0, 0, 2, 0, 0],
   [0, 0, 2, 0, 0, 0, 2, 2, 2, 2, 0, 0, 2, 0, 0],
   [0, 2, 2, 0, 2, 2, 2, 0, 0, 2, 0, 0, 2, 0, 0],
@@ -178,7 +178,7 @@ var escenario8 = [
 
 var escenario9 = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0, 2, 2, 0],
+  [0, 0, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0, 2, 2, 0],
   [0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 2, 0, 2, 2, 0],
   [0, 0, 2, 2, 2, 0, 2, 2, 2, 0, 2, 2, 2, 2, 0],
   [0, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0],
@@ -188,6 +188,117 @@ var escenario9 = [
   [0, 2, 2, 2, 2, 2, 0, 0, 3, 0, 0, 0, 0, 0, 0],
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ];
+
+
+var escenario10 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 2, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 0],
+  [0, 2, 2, 2, 2, 2, 2, 0, 0, 2, 0, 0, 2, 2, 0],
+  [0, 2, 2, 0, 0, 0, 2, 2, 0, 2, 2, 2, 2, 2, 0],
+  [0, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 0, 2, 0],
+  [0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 2, 0],
+  [0, 2, 2, 2, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 0],
+  [0, 0, 2, 0, 2, 0, 0, 0, 0, 2, 2, 0, 0, 2, 0],
+  [0, 3, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+
+var escenario11 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 0],
+  [0, 2, 2, 2, 2, 0, 2, 0, 0, 2, 0, 2, 0, 2, 0],
+  [0, 2, 0, 0, 2, 0, 2, 2, 0, 0, 0, 2, 2, 2, 0],
+  [0, 2, 0, 2, 2, 0, 0, 2, 2, 0, 2, 2, 0, 2, 0],
+  [0, 2, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 2, 1],
+  [0, 2, 2, 2, 0, 0, 2, 2, 2, 2, 0, 2, 0, 2, 0],
+  [0, 0, 2, 2, 2, 2, 0, 0, 0, 2, 0, 2, 0, 2, 0],
+  [0, 0, 2, 0, 0, 2, 2, 3, 0, 2, 2, 2, 2, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+var escenario12 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 2, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0],
+  [0, 0, 2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 0],
+  [0, 0, 2, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0],
+  [0, 0, 2, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0],
+  [0, 0, 2, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0],
+  [0, 2, 2, 2, 2, 2, 2, 2, 0, 2, 0, 2, 2, 2, 1],
+  [0, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 0, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+var escenario13 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 0],
+  [0, 0, 2, 0, 0, 0, 0, 2, 2, 2, 2, 0, 2, 2, 0],
+  [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 2, 0, 0, 2, 0],
+  [0, 0, 0, 2, 0, 2, 2, 2, 2, 2, 2, 2, 0, 2, 0],
+  [0, 2, 0, 2, 0, 0, 0, 0, 0, 2, 0, 2, 0, 2, 0],
+  [0, 2, 2, 2, 2, 0, 0, 2, 3, 0, 0, 2, 0, 2, 0],
+  [0, 2, 0, 2, 2, 0, 2, 2, 0, 0, 0, 2, 0, 0, 0],
+  [0, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 1],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+var escenario14 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0],
+  [0, 2, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 2, 0],
+  [0, 2, 2, 2, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 0],
+  [0, 2, 2, 2, 2, 0, 0, 0, 0, 2, 2, 2, 2, 2, 0],
+  [0, 2, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 2, 2, 0],
+  [0, 2, 2, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 2, 0],
+  [0, 2, 0, 0, 2, 2, 2, 2, 0, 0, 0, 2, 2, 2, 0],
+  [0, 2, 2, 2, 2, 0, 0, 2, 2, 3, 0, 1, 0, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+var escenario15 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 2, 2, 2, 2, 0, 2, 2, 2, 2, 2, 2, 2, 0],
+  [0, 0, 0, 0, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0],
+  [0, 2, 2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2, 2, 0],
+  [0, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 0, 2, 0],
+  [0, 2, 0, 0, 0, 2, 2, 0, 0, 0, 0, 2, 0, 0, 0],
+  [0, 2, 2, 0, 0, 2, 0, 0, 2, 2, 2, 2, 2, 2, 0],
+  [0, 2, 2, 2, 0, 2, 2, 0, 2, 2, 2, 0, 2, 0, 0],
+  [0, 0, 2, 3, 0, 0, 2, 0, 1, 2, 0, 0, 2, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+var escenario16 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 2, 2, 2, 2, 0, 0, 0, 2, 2, 2, 2, 0],
+  [0, 2, 0, 2, 0, 0, 2, 0, 2, 2, 2, 0, 2, 2, 0],
+  [0, 2, 0, 2, 2, 0, 2, 0, 2, 0, 0, 0, 0, 2, 0],
+  [0, 2, 0, 0, 2, 0, 2, 0, 2, 0, 0, 0, 2, 2, 0],
+  [0, 2, 0, 2, 2, 0, 2, 0, 2, 2, 0, 2, 2, 0, 0],
+  [0, 2, 2, 2, 0, 0, 2, 0, 0, 2, 0, 2, 0, 2, 0],
+  [0, 2, 0, 0, 2, 2, 2, 2, 0, 2, 0, 2, 2, 2, 0],
+  [0, 2, 0, 1, 2, 2, 2, 2, 2, 2, 0, 2, 2, 3, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+var escenario17 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 2, 0, 0, 0, 2, 2, 0, 2, 2, 2, 0, 1, 0],
+  [0, 0, 2, 0, 0, 0, 2, 2, 2, 2, 2, 2, 0, 2, 0],
+  [0, 0, 2, 2, 0, 0, 2, 0, 0, 2, 0, 2, 0, 2, 0],
+  [0, 0, 0, 2, 0, 0, 2, 0, 0, 2, 0, 2, 0, 2, 0],
+  [0, 0, 0, 2, 0, 2, 2, 2, 2, 2, 0, 2, 2, 2, 0],
+  [0, 2, 2, 2, 0, 2, 0, 0, 0, 2, 0, 0, 2, 2, 0],
+  [0, 0, 2, 0, 0, 2, 2, 0, 0, 2, 0, 0, 2, 2, 0],
+  [0, 2, 2, 2, 2, 2, 2, 3, 0, 2, 2, 2, 2, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+var escenario18 = [
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0],
+  [0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 2, 0],
+  [0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0],
+  [0, 2, 2, 0, 2, 2, 1, 0, 3, 2, 2, 0, 2, 0, 0],
+  [0, 2, 2, 2, 2, 2, 2, 0, 0, 0, 2, 0, 2, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 0],
+  [0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 2, 2, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+]
 
 /*--------------------------Termianan niveles-------------------*/
 function dibujaEscenario() {
@@ -239,6 +350,51 @@ function dibujaEscenario() {
     case 9:
       document.getElementById('nivelProgress').setAttribute('value', nivel);
       escenario = escenario9;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 10:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario10;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 11:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario11;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 12:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario12;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 13:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario13;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 14:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario14;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 15:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario15;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 16:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario16;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 17:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario17;
+      document.getElementById('nivel').innerHTML = nivel;
+      break;
+    case 18:
+      document.getElementById('nivelProgress').setAttribute('value', nivel);
+      escenario = escenario18;
       document.getElementById('nivel').innerHTML = nivel;
       break;
 
@@ -305,7 +461,43 @@ var malo = function (x, y) {
 
 
   this.dibuja = function () {
-    ctx.drawImage(tileMap, 0, 32, 32, 32, this.x * anchoF, this.y * altoF, anchoF, altoF);
+
+    switch (nivel) {
+      case 1:
+      case 2:
+      case 3:
+      case 4:
+      case 5:
+      case 6:
+        ctx.drawImage(tileMap, 0, 32, 32, 32, this.x * anchoF, this.y * altoF, anchoF, altoF);
+
+        break;
+      case 7:
+      case 8:
+      case 9:
+      case 10:
+      case 11:
+      case 12:
+        ctx.drawImage(tileMap, 64, 32, 32, 32, this.x * anchoF, this.y * altoF, anchoF, altoF);
+
+        break;
+      case 13:
+      case 14:
+      case 15:
+      case 16:
+      case 17:
+      case 18:
+        ctx.drawImage(tileMap, 96, 32, 32, 32, this.x * anchoF, this.y * altoF, anchoF, altoF);
+
+        break;
+       
+
+        break;
+
+      default:
+        break;
+    }
+    /* ctx.drawImage(tileMap, 0, 32, 32, 32, this.x * anchoF, this.y * altoF, anchoF, altoF); */
   }
 
 
@@ -522,7 +714,7 @@ function cambiaStilo(tile) {
   switch (tile) {
 
     case 1:
-      stiloMapa = 'img/tilemap5.png';
+      stiloMapa = 'img/tilemap.png';
       localStorage.setItem("stiloMapa", stiloMapa);
       tileMap = new Image();
       tileMap.src = stiloMapa;
@@ -537,7 +729,7 @@ function cambiaStilo(tile) {
       break;
 
     case 2:
-      stiloMapa = 'img/tilemap6.png';
+      stiloMapa = 'img/tilemap2.png';
       localStorage.setItem("stiloMapa", stiloMapa);
       tileMap = new Image();
       tileMap.src = stiloMapa;
@@ -567,7 +759,7 @@ function cambiaStilo(tile) {
       break;
 
     case 4:
-      stiloMapa = 'img/tilemap2.png';
+      stiloMapa = 'img/tilemap4.png';
       localStorage.setItem("stiloMapa", stiloMapa);
       tileMap = new Image();
       tileMap.src = stiloMapa;
@@ -582,7 +774,63 @@ function cambiaStilo(tile) {
       break;
 
     case 5:
-      stiloMapa = 'img/tilemap.png';
+      stiloMapa = 'img/tilemap5.png';
+      localStorage.setItem("stiloMapa", stiloMapa);
+      tileMap = new Image();
+      tileMap.src = stiloMapa;
+      borraCanvas();
+      dibujaEscenario();
+      imagenAntorcha.dibuja();
+      imagenAntorcha2.dibuja();
+      imagenAntorcha3.dibuja();
+      imagenAntorcha4.dibuja();
+      protagonista.dibuja();
+
+      break;
+    case 6:
+      stiloMapa = 'img/tilemap6.png';
+      localStorage.setItem("stiloMapa", stiloMapa);
+      tileMap = new Image();
+      tileMap.src = stiloMapa;
+      borraCanvas();
+      dibujaEscenario();
+      imagenAntorcha.dibuja();
+      imagenAntorcha2.dibuja();
+      imagenAntorcha3.dibuja();
+      imagenAntorcha4.dibuja();
+      protagonista.dibuja();
+
+      break;
+    case 7:
+      stiloMapa = 'img/tilemap7.png';
+      localStorage.setItem("stiloMapa", stiloMapa);
+      tileMap = new Image();
+      tileMap.src = stiloMapa;
+      borraCanvas();
+      dibujaEscenario();
+      imagenAntorcha.dibuja();
+      imagenAntorcha2.dibuja();
+      imagenAntorcha3.dibuja();
+      imagenAntorcha4.dibuja();
+      protagonista.dibuja();
+
+      break;
+    case 8:
+      stiloMapa = 'img/tilemap8.png';
+      localStorage.setItem("stiloMapa", stiloMapa);
+      tileMap = new Image();
+      tileMap.src = stiloMapa;
+      borraCanvas();
+      dibujaEscenario();
+      imagenAntorcha.dibuja();
+      imagenAntorcha2.dibuja();
+      imagenAntorcha3.dibuja();
+      imagenAntorcha4.dibuja();
+      protagonista.dibuja();
+
+      break;
+    case 9:
+      stiloMapa = 'img/tilemap9.png';
       localStorage.setItem("stiloMapa", stiloMapa);
       tileMap = new Image();
       tileMap.src = stiloMapa;
@@ -636,14 +884,15 @@ function inicializa() {
 
   //cargamos nivel maximo
   var recuperado;
-  if (localStorage.getItem("max") == 'undefined') {
+  if (localStorage.getItem("max") == undefined) {
 
-    recuperado = 0;
+    document.getElementById('maximo').innerHTML = 0;
 
   } else {
     recuperado = recuperar();
+    document.getElementById('maximo').innerHTML = recuperado;
   }
-  document.getElementById('maximo').innerHTML = recuperado;
+
 
 
   //CREAMOS AL JUGADOR
